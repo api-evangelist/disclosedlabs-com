@@ -64,5 +64,134 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Disclosed Labs is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://www.disclosedlabs.com
+Disclosed Labs provides a comprehensive, independent platform that aggregates peptide pricing, vendor grades, and FDA regulatory status. It offers searchable data on compounds, licensed providers, research market listings, and detailed FDA compliance information, helping users understand costs, legal considerations, and available clinical data without selling or prescribing any products.
+
+**Areas:** Company · Data · Healthcare · FDA · Peptides
+
+## Disclosed Labs on APIs.io
+
+Everything profiled for Disclosed Labs is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/disclosedlabs-com/](https://apis.io/providers/disclosedlabs-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [Disclosed Labs COAs API](https://apis.io/apis/disclosedlabs-com/disclosedlabs-com-coas-api/) — The COAs API from Disclosed Labs — 3 operation(s) for coas.
+- [Disclosed Labs Labs API](https://apis.io/apis/disclosedlabs-com/disclosedlabs-com-labs-api/) — The Labs API from Disclosed Labs — 3 operation(s) for labs.
+- [Disclosed Labs Meta API](https://apis.io/apis/disclosedlabs-com/disclosedlabs-com-meta-api/) — The Meta API from Disclosed Labs — 4 operation(s) for meta.
+- [Disclosed Labs Peptides API](https://apis.io/apis/disclosedlabs-com/disclosedlabs-com-peptides-api/) — The Peptides API from Disclosed Labs — 9 operation(s) for peptides.
+- [Disclosed Labs Prices API](https://apis.io/apis/disclosedlabs-com/disclosedlabs-com-prices-api/) — The Prices API from Disclosed Labs — 2 operation(s) for prices.
+- [Disclosed Labs Vendors API](https://apis.io/apis/disclosedlabs-com/disclosedlabs-com-vendors-api/) — The Vendors API from Disclosed Labs — 6 operation(s) for vendors.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Disclosed Labs Agentic Access](https://apis.io/agentic-access/disclosedlabs-com/disclosedlabs-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Coa](https://apis.io/schemas/disclosedlabs-com/disclosedlabs-com-coa/)
+- [CoaSummary](https://apis.io/schemas/disclosedlabs-com/disclosedlabs-com-coa-summary/)
+- [Lab](https://apis.io/schemas/disclosedlabs-com/disclosedlabs-com-lab/)
+- [LotBatch](https://apis.io/schemas/disclosedlabs-com/disclosedlabs-com-lot-batch/)
+- [Peptide](https://apis.io/schemas/disclosedlabs-com/disclosedlabs-com-peptide/)
+- [Vendor](https://apis.io/schemas/disclosedlabs-com/disclosedlabs-com-vendor/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Disclosedlabs Com Context](https://apis.io/jsonld/disclosedlabs-com/disclosedlabs-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Disclosed Labs API Rules](https://apis.io/rules/disclosedlabs-com/disclosedlabs-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Disclosed Labs Authentication](https://apis.io/security/disclosedlabs-com/disclosedlabs-com-authentication/)
+- [Disclosed Labs Domain Security](https://apis.io/security/disclosedlabs-com/disclosedlabs-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Disclosed Labs Plans Pricing](https://apis.io/plans/disclosedlabs-com/disclosedlabs-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.disclosedlabs.com)
+- [Documentation](https://www.disclosedlabs.com/developers)
+- [Getting started](https://www.disclosedlabs.com/developers/getting-started)
+- [API reference](https://www.disclosedlabs.com/developers/reference)
+- [Pricing](https://www.disclosedlabs.com/pricing)
+- [Terms of service](https://www.disclosedlabs.com/terms)
+- [Privacy policy](https://www.disclosedlabs.com/privacy)
+- [Status](https://www.disclosedlabs.com/api/v1/status)
+
+## API Evangelist rating
+
+**Kin Score 52.3** — developing · rubric 0.28.0 · scored 2026-11-24
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 56.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 14.3 |
+| Developer ergonomics | 40.5 |
+| Access clarity | 59.1 |
+
+**Agent readiness 29.8** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 14.8** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/disclosedlabs-com/](https://apis.io/providers/disclosedlabs-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Disclosed Labs: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/disclosedlabs-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
